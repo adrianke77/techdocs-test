@@ -1,0 +1,34 @@
+site_name: "test-docs-repo-root-level"
+repo_url: https://gitlab.myteksi.net/nexus/docs/-/tree/master/confluence-convert-test/conveyor
+edit_uri: docs
+
+nav:
+  - Home: index.md
+  - Test Page 1: page1.md
+  - Test Page 2: page2.md
+  - Test Nesting:
+      - Test Page 3: page3.md
+      - Test Page 4: page4.md
+  - Test Nesting 2:
+      - Test Page 5: page5.md
+      - Test Nesting 3:
+          - Test Page 6: page6.md
+  - Test Page 7: page7.md
+  - Test Page 8: page8.md
+  - Test Page 9: page9.md
+  - Test Page 10: page10.md
+  - Test Page 11: page11.md
+  - Test Page 12: page12.md
+  - Test Page 13: page13.md
+  - Test Page 14: page14.md
+  - Test Page 15: page15.md
+  - Test Page 16: page16.md
+  - Test Page 17: page17.md
+  - Test Page 18: page18.md
+  - Test Page 19: page19.md
+  - Test Page 20: page20.md
+  - Test Page 21: page21.md
+
+plugins:
+  - techdocs-core
+  - search

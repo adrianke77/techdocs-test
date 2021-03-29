@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-docs-repo-root
+  description: Test Docs Repo, Root Level
+  annotations:
+    # below indicates directory the mkdocs.yml is located in
+    # backstage.io/techdocs-ref: dir:./
+    # below line is an example of pointing to a Git repo, goes to root of the repo
+    # backstage.io/techdocs-ref: gitlab:https://gitlab.myteksi.net/nexus/docs.git
+    # below line is an example of pointing to a directory from outside the repo
+    backstage.io/techdocs-ref: url:https://gitlab.myteksi.net/nexus/docs/-/tree/master/
+spec:
+  type: documentation
+  owner: Grab
+  lifecycle: experimental  
