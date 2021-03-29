@@ -9,7 +9,7 @@ metadata:
     # below line is an example of pointing to a Git repo, goes to root of the repo
     # backstage.io/techdocs-ref: gitlab:https://gitlab.myteksi.net/nexus/docs.git
     # below line is an example of pointing to a directory from outside the repo
-    backstage.io/techdocs-ref: url:https://gitlab.myteksi.net/nexus/docs/-/tree/master/
+    backstage.io/techdocs-ref: url:https://github.com/adrianke77/techdocs-test/blob/master
 spec:
   type: documentation
   owner: Grab
