@@ -1,5 +1,5 @@
 site_name: "test-docs-repo-root-level"
-repo_url: https://gitlab.myteksi.net/nexus/docs/-/tree/master/confluence-convert-test/conveyor
+repo_url: https://github.com/adrianke77/techdocs-test/blob/master
 edit_uri: docs
 
 nav:
